@@ -1,0 +1,430 @@
+@media screen and (max-width:1920px) {
+  
+.grid-container { 
+    display: grid;
+    gap: 20px;
+    width: 90%;
+    height: 50px;
+    justify-content: stretch;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto ;
+    box-sizing: border-box;
+  }
+}
+  .column{
+    width: 25%;
+    float: left;
+    padding: 10px;
+    height: 50px;
+
+  }
+
+  .row:after{
+     width: 25%;
+     padding: 10px;
+     height: 50px;  
+  }
+  @media  screen and (max-width:1920px) {
+  
+  .grid-item1 {
+    background-color: lightsalmon;
+    display: grid;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    align-content: space-around;
+  }
+  }
+  @media screen and (max-width: 1920px) {
+    
+  
+  .grid-item2 {
+    background-color: #ffa07a;
+    display: grid;
+    column-gap: 5px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    right: 150px;
+    height: 50px;
+    width: 50px;
+  }
+  }
+  @media screen and (max-width:1920px) {
+    
+  .grid-item3 {
+    background-color: lightsalmon;
+    display: flex;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 50px;
+    width: 75px;
+    column-gap: 20px;
+    position: relative;
+    right: 175px;
+  }
+  }
+  @media screen and (max-width:1920px) {
+    
+  .grid-item4 {
+    background-color: lightsalmon;
+    
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    right: 180px;
+    height: 50px;
+    width: 75px;
+    column-gap: 20px;
+  }
+  }
+  @media screen and (max-width:1920px) {
+    
+  .grid-item5 {
+    background-color: lightsalmon;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    column-gap: 20px;
+    position: relative;
+    right: 280px;
+  }
+  }
+  @media screen and (max-width:1920px) {
+    
+  .grid-item6 {
+    background-color: lightsalmon;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    right: 260px;  
+    height: 50px;
+    width: 50px;
+    column-gap: 20px;
+  }
+  }
+  @media screen and (max-width:1920px) {
+    
+  .grid-item7 {
+    background-color: lightsalmon;
+    
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  
+    height: 50px;
+    width: 200px;
+    column-gap: 20px;
+  }
+  }
+  @media screen and (max-width:1920px) {
+    
+  .grid-item8 {
+    background-color: lightsalmon;
+    
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 50px;
+    width: 175px;
+    column-gap: 20px;
+    position: relative;
+    left: 75px;
+  }
+  }
+  @media screen and (max-width:1920px) {
+    .grid-item9 {
+    background-color: lightsalmon;
+    text-decoration:lightsalmon;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    column-gap: 20px;
+  }
+  }
+  @media screen and (max-width:1920px) {
+    
+  .grid-item10 {
+    background-color: lightsalmon;
+    
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    column-gap: 20px;
+  }
+}
+@media screen and (max-width:1920px) {
+    
+  .grid-item11 {
+    background-color: lightsalmon;
+    
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+ 
+    height: 30px;
+    width: 30px;
+    column-gap: 20px;
+    position: relative;
+    top: 115px;
+    right: 280px;
+  }
+}
+@media screen and (max-width:1920px) {
+    
+  .grid-item12 {
+    background-color: lightsalmon;
+    
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+ 
+    height: 30px;
+    width: 30px;
+    column-gap: 20px;
+    position: relative;
+    top: 115px;
+    right: 325px;
+  }
+}
+@media screen and (max-width:1920px) {
+    
+  .grid-item13 {
+    background-color: lightsalmon;
+    
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    column-gap: 20px;
+  }
+}
+@media screen and (max-width:1920px) {
+    
+  .grid-item14 {
+    background-color: lightsalmon;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    column-gap: 20px;
+    position: relative;
+    right: 194px;
+  }
+}
+@media screen and (max-width:1920px) {
+    
+  .grid-item15 {
+    background-color: lightsalmon;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    column-gap: 20px;
+    position: relative;
+    right: 363px;
+  }
+}
+@media screen and (max-width:1920px) {
+    
+  .grid-item16 {
+    background-color: lightsalmon;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    column-gap: 20px;
+    position: relative;
+    right: 335px;
+  }
+}
+@media screen and (max-width:1920px) {
+    
+  .grid-item17 {
+    background-color: lightsalmon;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    column-gap: 20px;
+    position: relative;
+    right: 520px;
+  }
+}
+@media screen and (max-width:1920px) {
+    
+  .grid-item18 {
+    background-color: lightsalmon;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    column-gap: 20px;
+    position: relative;
+    right: 548px;
+  }
+}
+@media screen and (max-width:1920px) {
+    
+  .grid-item19 {
+    background-color: lightsalmon;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    column-gap: 20px;
+    position: relative;
+    right: 0px;
+  }
+}
+@media screen and (max-width:1920px) {
+    
+  .grid-item20 {
+    background-color: lightsalmon;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    column-gap: 20px;
+    position: relative;
+    right: 194px;
+  }
+}
+@media screen and (max-width:1920px) {
+    
+  .grid-item21 {
+    background-color: lightsalmon;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    column-gap: 20px;
+    position: relative;
+    right:363px;
+  }
+}
+@media screen and (max-width:1920px) {
+    
+  .grid-item22 {
+    background-color: lightsalmon;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    column-gap: 20px;
+    position: relative;
+    right:335px ;
+  }}
+  @media screen and (max-width:1920px) {
+    
+  .grid-item23{
+    background-color: lightsalmon;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    column-gap: 20px;
+    position: relative;
+    right: 520px;
+  }
+  }
+  @media screen and (max-width:1920px) {
+    
+  .grid-item24 {
+    background-color: lightsalmon;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    column-gap: 20px;
+    position: relative;
+    right: 548px;
+  }
+}
+@media screen and (max-width:1920px) {
+    
+  .grid-item25 {
+    background-color: lightsalmon;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    column-gap: 20px;
+    position: relative;
+    left:778px;
+    bottom: 90px;
+  }
+}
+@media screen and (max-width:1920px) {
+    
+  .grid-item26 {
+    background-color: lightsalmon;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    column-gap: 20px;
+    position: relative;
+    left: 410px;
+    bottom: 90px;
+
+  }
+}
+@media screen and (max-width:1920px) {
+    
+  .grid-item27 {
+    background-color: lightsalmon;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    column-gap: 20px;
+    position: relative;
+    left: 325px;
+    bottom: 175px;
+  }
+}
+@media screen and (max-width:1920px) {
+    
+  .grid-item28 {
+    background-color: lightsalmon;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    column-gap: 20px;
+    position: relative;
+    
+    bottom: 91px;
+    left: 170px;
+   
+  }
+}
